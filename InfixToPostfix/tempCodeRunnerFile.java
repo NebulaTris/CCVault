@@ -1,7 +1,6 @@
 package InfixToPostfix;
 
 
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -100,5 +99,3 @@ public class InfixToPostfix {
         System.out.println("Postfix Expression: " + postfixExpression);
     }
 }
-
-
