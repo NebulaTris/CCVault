@@ -1,0 +1,3 @@
+[submodule "toycompiler"]
+	path = toycompiler
+	url = https://github.com/NebulaTris/toycompiler.git
