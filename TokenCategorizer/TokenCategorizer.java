@@ -1,3 +1,4 @@
+package TokenCategorizer;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -36,7 +37,6 @@ public class TokenCategorizer {
 
     // Function to categorize tokens
     public static String categorizeToken(String token) {
-        // Example categorization logic, adjust as needed
         if (token.matches("[a-zA-Z]+")) {
             return "Identifier";
         } else if (token.matches("[0-9]+")) {
